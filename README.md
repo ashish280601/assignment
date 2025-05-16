@@ -60,5 +60,4 @@ This system simulates a **multi-counter checkout process** using queue-based log
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/hypermart-checkout.git
-   cd hypermart-checkout
+   git clone https://github.com/ashish280601/assignment.git
