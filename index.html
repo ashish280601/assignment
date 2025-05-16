@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypermart Checkout System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Hypermart Checkout System</h1>
+        <p class="subtitle">Real-time queue management system</p>
+
+        <div class="input-container">
+            <input type="number" placeholder="Enter number of items" id="itemInput"/>
+            <button onclick=addCustomer()>Checkout Items</button>
+        </div>
+
+        <!-- Parent Div Tag for creating a Counter section for billing -->
+         <!-- counter 1 -->
+         <div class="counters">
+            <div class="counter" id="counter1">
+                <div class="counter-header">
+                    <h2>Counter 1</h2>
+                    <p class="customers">👥 0 customers</p>
+                </div>
+                <ul></ul>
+                <p class="total">Total Items: 0</p>
+            </div>
+            <!-- counter 2 -->
+            <div class="counter" id="counter2">
+                <div class="counter-header">
+                    <h2>Counter 2</h2>
+                    <p class="customers">👥 0 customers</p>
+                </div>
+                <ul></ul>
+                <p class="total">Total Items: 0</p>
+            </div>
+            <!-- counter 3 -->
+            <div class="counter" id="counter3">
+                <div class="counter-header">
+                    <h2>Counter 3</h2>
+                    <p class="customers">👥 0 customers</p>
+                </div>
+                <ul></ul>
+                <p class="total">Total Items: 0</p>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
